@@ -34,7 +34,7 @@ function handlePay() {
 const paymentAddresses = {
     paypal: 'https://www.paypal.me/prajwalmohan04', // Update Paypal value
     binance: '926220173', // Update Binance Pay value
-    coffee: '#' // Update Buy me coffe value
+    coffee: 'Scanner.html' // Update airtm payment
 };
 
 document.addEventListener('DOMContentLoaded', function () {
