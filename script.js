@@ -52,9 +52,9 @@ function handlePayy() {
     }, 3000);
 }
 const paymentAddresses = {
-    paypal: 'https://www.paypal.me/prajwalmohan04', // Update Paypal value
+    paypal: '/paypal.html', // Update Paypal value
     binance: '926220173', // Update Binance Pay value
-    coffee: '/Scanner.html' // Update airtm payment
+    coffee: '/airtm.html' // Update airtm payment
 };
 
 document.addEventListener('DOMContentLoaded', function () {
