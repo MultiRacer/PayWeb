@@ -38,6 +38,19 @@ function handleDownloadd() {
     }, 3000);
 }
 
+function handleDownloaddd() {
+    showToast("Wait");
+    setTimeout(() => {
+        const link = document.createElement("a");
+        link.href = "assets/paypal.png";
+        link.download = "qr";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        showToast("Downloaing.....");
+    }, 3000);
+}
+
 function handlePay() {
     showToast("Opening UPI app(s)");
     setTimeout(() => {
@@ -51,6 +64,14 @@ function handlePayy() {
         window.location.href = "https://airtm.me/prajwal7ooevvzs"; // Replace upi id and name keep the format same
     }, 3000);
 }
+
+function handlePayyy() {
+    showToast("Opening Airtm App");
+    setTimeout(() => {
+        window.location.href = "https://www.paypal.me/prajwalmohan04"; // Replace upi id and name keep the format same
+    }, 3000);
+}
+
 const paymentAddresses = {
     paypal: '/paypal.html', // Update Paypal value
     binance: '926220173', // Update Binance Pay value
