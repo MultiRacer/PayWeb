@@ -12,7 +12,7 @@ function handleCopy() {
     navigator.clipboard.writeText(upi);
     showToast("UPI ID copied!");
 }
-function handleDownload() {
+functione handleDownload() {
     showToast("Wait");
     setTimeout(() => {
         const link = document.createElement("a");
@@ -24,6 +24,20 @@ function handleDownload() {
         showToast("Downloaing.....");
     }, 3000);
 }
+
+functione handleDownloadd() {
+    showToast("Wait");
+    setTimeout(() => {
+        const link = document.createElement("a");
+        link.href = "assets/airtm.png";
+        link.download = "qr";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        showToast("Downloaing.....");
+    }, 3000);
+}
+
 function handlePay() {
     showToast("Opening UPI app(s)");
     setTimeout(() => {
