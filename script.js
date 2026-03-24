@@ -41,14 +41,14 @@ function handleDownloadd() {
 function handlePay() {
     showToast("Opening UPI app(s)");
     setTimeout(() => {
-        window.location.href = "upi://pay?pa=airtm.me/prajwal7ooevvzs&pn=Prajwal&mc=0000&mode=02&purpose=00"; // Replace upi id and name keep the format same
+        window.location.href = "upi://pay?pa=socialhelpline@upi&pn=Prajwal&mc=0000&mode=02&purpose=00"; // Replace upi id and name keep the format same
     }, 3000);
 }
 
 function handlePayy() {
-    showToast("Opening UPI app(s)");
+    showToast("Opening Airtm App");
     setTimeout(() => {
-        window.location.href = "upi://pay?pa=socialhelpline@upi&pn=Prajwal&mc=0000&mode=02&purpose=00"; // Replace upi id and name keep the format same
+        window.location.href = "https://airtm.me/prajwal7ooevvzs"; // Replace upi id and name keep the format same
     }, 3000);
 }
 const paymentAddresses = {
