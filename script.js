@@ -29,7 +29,7 @@ function handleDownloadd() {
     showToast("Wait");
     setTimeout(() => {
         const link = document.createElement("a");
-        link.href = "assets/airtm.png";
+        link.href = "assets/airtmm.png";
         link.download = "qr";
         document.body.appendChild(link);
         link.click();
