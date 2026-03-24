@@ -54,7 +54,7 @@ function handlePayy() {
 const paymentAddresses = {
     paypal: 'https://www.paypal.me/prajwalmohan04', // Update Paypal value
     binance: '926220173', // Update Binance Pay value
-    coffee: 'https://payweb-mr.vercel.app/Scanner.html' // Update airtm payment
+    coffee: '/Scanner.html' // Update airtm payment
 };
 
 document.addEventListener('DOMContentLoaded', function () {
