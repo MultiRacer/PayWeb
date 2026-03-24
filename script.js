@@ -41,10 +41,16 @@ function handleDownloadd() {
 function handlePay() {
     showToast("Opening UPI app(s)");
     setTimeout(() => {
-        window.location.href = "upi://pay?pa=socialhelpline@upi&pn=Prajwal&mc=0000&mode=02&purpose=00"; // Replace upi id and name keep the format same
+        window.location.href = "upi://pay?pa=airtm.me/prajwal7ooevvzs&pn=Prajwal&mc=0000&mode=02&purpose=00"; // Replace upi id and name keep the format same
     }, 3000);
 }
 
+function handlePayy() {
+    showToast("Opening UPI app(s)");
+    setTimeout(() => {
+        window.location.href = "upi://pay?pa=socialhelpline@upi&pn=Prajwal&mc=0000&mode=02&purpose=00"; // Replace upi id and name keep the format same
+    }, 3000);
+}
 const paymentAddresses = {
     paypal: 'https://www.paypal.me/prajwalmohan04', // Update Paypal value
     binance: '926220173', // Update Binance Pay value
