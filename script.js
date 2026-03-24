@@ -12,7 +12,7 @@ function handleCopy() {
     navigator.clipboard.writeText(upi);
     showToast("UPI ID copied!");
 }
-functione handleDownload() {
+function handleDownload() {
     showToast("Wait");
     setTimeout(() => {
         const link = document.createElement("a");
@@ -25,7 +25,7 @@ functione handleDownload() {
     }, 3000);
 }
 
-functione handleDownloadd() {
+function handleDownloadd() {
     showToast("Wait");
     setTimeout(() => {
         const link = document.createElement("a");
